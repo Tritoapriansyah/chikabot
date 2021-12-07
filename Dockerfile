@@ -13,6 +13,4 @@ RUN apt-get update && \
   RUN npm install
   RUN ls
   
-  EXPOSE 5000
-  
   CMD ["npm", "start"]

@@ -114,10 +114,11 @@ module.exports = async(chika, msg, m, ind, setting) => {
         
         //Please dont edit for urlbutton 
         const buttonsDefault = [
-            { callButton: {displayText: `☎ ️Call Owner`, phoneNumber: `+628127668234`} },
-            { urlButton: { displayText: `💠 Script Bot`, url : `https://github.com/rashidsiregar28/chikabot`} },
+            { callButton: {displayText: `☎ ️Call Owner`, phoneNumber: `+6285888258313`} },
+            { urlButton: { displayText: `💠 Rest api`, url : `https://rest-api-lolita.herokuapp.com/`} },
             { quickReplyButton: { displayText: `🧑 Owner`, id: `${prefix}owner` } },
-            { quickReplyButton: { displayText: `🎛️ Rules`, id: `${prefix}rules` } }
+            { quickReplyButton: { displayText: `🎛️ Rules`, id: `${prefix}rules` } },
+	    { quickReplyButton: { displayText: `☰ Menu`, id: `${prefix}allmenu` } }
         ]
 
         const textTemplateButtons = (from, text, footer, buttons) => {
